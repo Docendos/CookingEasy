@@ -152,12 +152,14 @@ nav ul li a.active{
 ::placeholder {
     color: #555;
 }
+.info-background{
+    background: #0c0b09 
+}
 
 .info {
     min-height: 100vh;
     max-width: 900px;
     margin: 50px auto;
-    background: #f8f8f8;
 }
 
 .inner-info {
@@ -216,7 +218,7 @@ footer {
 }
 
 footer span {
-    color: red;
+    color: #cda45e;
 }
 
 
