@@ -48,10 +48,16 @@ nav ul li a {
     transition: 0.3s ease-in-out;
 }
 
+
 nav ul li a:hover,
 nav ul li a.active {
     background: red;
     color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.btn{
+    border-radius: 10px;
 }
 
 .banner {
