@@ -30,7 +30,7 @@ nav .logo {
 }
 
 nav .logo span {
-    color: red;
+    color: #cda45e;
 }
 
 nav ul {
@@ -40,7 +40,7 @@ nav ul {
 
 nav ul li a {
     margin: 0 15px;
-    padding: 20px 25px;
+    padding: 10px 25px;
     color: #f3f3f3;
     text-decoration: none;
     font-size: 18px;
@@ -51,7 +51,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background: red;
+    border: 2px solid #cda45e;
     color: #f3f3f3;
     border-radius: 10px;
 }
@@ -61,14 +61,17 @@ nav ul li a.active {
 }
 
 .banner {
-    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('./img/bg.jpg') no-repeat center center/cover;
     width: 100%;
-    border-bottom: 5px solid red;
 }
 
 .banner .inner-text {
-    padding: 200px 20px;
+    margin:0 30px;
 }
 
 .inner-text h1 {
@@ -85,7 +88,7 @@ nav ul li a.active {
 .inner-text a {
     display: inline-block;
     padding: 10px 30px;
-    background: red;
+    border: 2px solid #cda45e;
     text-decoration: none;
     color: #fff;
     margin: 10px 0;
@@ -95,6 +98,7 @@ nav ul li a.active {
 
 .inner-text a:hover {
     opacity: 0.8;
+    background-color: #cda45e;
 }
 
 /* NewsLetter */
