@@ -97,7 +97,6 @@ nav ul li a.active {
     opacity: 0.8;
 }
 
-/* NewsLetter */
 .newsletter {
     min-height: 20vh;
     width: 100%;
@@ -147,7 +146,6 @@ nav ul li a.active {
     color: #555;
 }
 
-/* Info */
 .info {
     min-height: 100vh;
     max-width: 900px;
@@ -200,7 +198,6 @@ nav ul li a.active {
     opacity: 0.8;
 }
 
-/* Footer */
 footer {
     height: 5vh;
     width: 100%;
@@ -216,8 +213,6 @@ footer span {
 }
 
 
-
-/* About Part */
 .about {
     min-height: 100vh;
     width: 100%;
@@ -261,7 +256,6 @@ footer span {
     width: 500px;
 }
 
-/* Contact Part */
 .contact {
     min-height: 100vh;
     width: 100%;
@@ -328,8 +322,6 @@ form input[type="submit"] {
 }
 
 
-
-/* Set Media Query */
 @media (max-width: 980px) {
     nav .logo {
         font-size: 18px;
