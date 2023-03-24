@@ -6,7 +6,7 @@
 
 body {
     background: #f3f3f3;
-    /* font-family: sans-serif; */
+
     font-family: "Open Sans", sans-serif;
 }
 .row{
@@ -72,7 +72,6 @@ nav ul li a.active{
 .btn{
     border-radius: 10px;
 }
-
 
 .banner {
     display: flex;
@@ -334,8 +333,8 @@ footer span {
     align-content: center;
     min-height: 100vh;
     width: 100%;
-    background: #1a1814;
-    /* padding: 150px 0; */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('./img/healthy.jpg') no-repeat center center/cover;
+    padding: 150px 0;
 }
 
 .contact-details {
