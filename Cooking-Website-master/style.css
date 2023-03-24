@@ -225,6 +225,49 @@ nav ul li a.active{
     background-color: #cda45e;
 }
 
+
+
+/* .info .card {
+    min-height: 300px;
+    height: 300px;
+    width: 33.3%;
+    border-radius: 10px;
+    max-width: 350px;
+    padding: 40px;
+    background: #f3f3f3;
+    box-shadow: 0 10px 10px 0px rgba(0,0,0,0.5);
+}
+
+.info .card img {
+    max-width: 100px;
+}
+
+.inner-info .card h3 {
+    margin: 10px 0 10px 0;
+    color: red;
+}
+
+.inner-info .card p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.inner-info .card .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: red;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.inner-info .card .btn:hover {
+    opacity: 0.8;
+} */
+
 footer {
     height: 5vh;
     width: 100%;
