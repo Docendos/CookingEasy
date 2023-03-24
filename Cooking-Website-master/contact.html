@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/hat.ico" type="image/icon type">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <title>Cooking | Food | Recipes | Ingredients | Contact</title>
+    <title>Контакти</title>
 </head>
 <body>
 
@@ -13,10 +14,10 @@
     <nav>
         <a href="#" class="logo">Cooking <span>Foods</span></a>
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="recipes.html">RECIPES</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="contact.html"  class="active">CONTACT</a></li>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="recipes.html">Рецепти</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="contact.html" class="active">Контакти</a></li>
         </ul>
     </nav>
 
@@ -46,13 +47,20 @@
             </div>
             <div class="form">
                 <form action="#">
-                    <label for="Name">UserName</label>
-                    <input type="text" name="name" placeholder="Enter Username......" required>
-                    <label for="Password">Password</label>
-                    <input type="password" name="password" placeholder="Enter Password......" required>
-                    <br>
-                    <a href="#">Forget Password</a>
-                    <input type="submit" value="Submit">
+                    <div class="row"> 
+                        <div>
+                            <label for="Name">Ваше ім'я</label>
+                            <input type="text" name="name" placeholder="Введіть ім'я......" required>
+                        </div>
+                        <div>
+                            <label for="Email">Ваш емейл</label>
+                            <input type="email" name="email" placeholder="Введіть емейл......" required>
+                        </div>
+                    </div>
+                    
+                    <label for="Message">Ваш текст</label>
+                    <textarea name="message" cols="8" rows="8" placeholder="Ваш текст"></textarea>
+                    <input type="submit" value="Відправити" class="btn bordered">
                 </form>
             </div>
         </div>

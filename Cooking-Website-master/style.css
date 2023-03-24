@@ -9,6 +9,11 @@ body {
     /* font-family: sans-serif; */
     font-family: "Open Sans", sans-serif;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 
 nav {
@@ -322,7 +327,7 @@ footer span {
 .contact {
     min-height: 100vh;
     width: 100%;
-    background: #f3f3f3;
+    background: #1a1814;
     padding: 150px 0;
 }
 
@@ -350,38 +355,86 @@ footer span {
     font-size: 20px;
 }
 
+.main{
+    height: 100vh;
+    background-color: #1a1814;
+}
+
+
+
 .form {
     max-width: 500px;
-    background: #333;
+    border-radius: 10px;
+    background: #26231d;
     color: #fff;
     padding: 60px;
+    justify-content: space-around;
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 
 form label {
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 form input {
+    border-radius: 5px;
+    border: 1px #625b4b solid;
+    background-color: transparent;
     height: 40px;
     width: 300px;
-    border: 0;
+
     outline: none;
     margin-bottom: 20px;
     padding-left: 10px;
-    color: #000;
+    color: #625b4b;
     font-size: 18px;
+    transition: 0.3s ease;
+}
+form input:hover {
+    border: 1px #625b4b solid;
+    color: #625b4b;
+}
+form input:focus {
+    border: 1px #625b4b solid;
+    color: #625b4b;
+    border: 1px solid #cda45e;
 }
 
-form a {
-    color: red;
-}
 
 form input[type="submit"] {
-    margin-top: 20px;
-    background: #fff;
-    color: #222;
-    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #cda45e;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    margin: 10px 0;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+form textarea{
+    resize: none;
+    border-radius: 5px;
+    box-shadow: none;
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    border-color: #625b4b;
+    color: white;
+}
+form textarea:focus {
+    border: 1px #625b4b solid;
+    border: 1px solid #cda45e;
+}
+
+form input[type="submit"]:hover {
+    opacity: 0.8;
+    background-color: #cda45e;
 }
 
 
